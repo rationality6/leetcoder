@@ -1,9 +1,13 @@
 defmodule Solve do
   def run(num) do
-    num
-    |> to_charlist()
-    |> IO.inspect()
-    |> Enum.each(fn n -> IO.inspect(n) end)
+    num_list =
+      num
+      |> to_charlist()
+      |> Enum.map(fn n -> n end)
+
+    half_length = (length(num_list) / 2) |> floor()
+
+    Enum.find(num_list, fn n -> n == 3 end)
   end
 end
 
