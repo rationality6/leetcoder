@@ -1,7 +1,6 @@
 defmodule TwoSum do
   def run(nums, target) do
     maps = insert_to_map(nums)
-    IO.inspect(maps)
     find_in_map(maps, nums, target)
   end
 
@@ -31,10 +30,10 @@ defmodule TwoSum do
   end
 end
 
-nums = [2, 5, 5, 11]
-target = 10
+# nums = [2, 5, 5, 11]
+# target = 10
 
-TwoSum.run(nums, target) |> IO.inspect()
+# TwoSum.run(nums, target) |> IO.inspect()
 
 # test_map = %{2 => 0, 7 => 1, 11 => 2, 15 => 3}
 # Map.fetch(test_map, 15) |> IO.inspect()
