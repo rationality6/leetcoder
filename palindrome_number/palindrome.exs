@@ -3,7 +3,6 @@ defmodule Solve do
     num_list =
       num
       |> to_charlist()
-      |> Enum.map(fn n -> n end)
 
     half_length = (length(num_list) / 2) |> floor()
 
@@ -11,4 +10,12 @@ defmodule Solve do
   end
 end
 
-Solve.run(1_234_321) |> IO.inspect()
+Solve.run(1234321) |> IO.inspect()
+# Solve.run(12321) |> IO.inspect()
+# Solve.run(1224321) |> IO.inspect()
+# Solve.run(1224321) |> IO.inspect()
+
+
+
+"fooof" |> to_charlist() |> IO.inspect()
+1234321 |> Integer.to_string() |> IO.inspect()
