@@ -1,0 +1,59 @@
+{
+  "records": [{
+    "id": "recJu5MGCNdIkbkCz",
+    "createdTime": "2022-09-16T11:56:23.000Z",
+    "fields": {
+      "Copy": "Intro created on {created_at, datetime}",
+      "Key": "intro.created_at"
+    }
+  }, {
+    "id": "recYaXWYfPwK15fdm",
+    "createdTime": "2022-09-17T00:12:24.000Z",
+    "fields": {
+      "Copy": "It is {time, datetime}",
+      "Key": "time"
+    }
+  }, {
+    "id": "recYvOPzYwzxMdNZi",
+    "createdTime": "2022-09-19T23:35:12.000Z",
+    "fields": {
+      "Key": "wefewf",
+      "Copy": "wefwef"
+    }
+  }, {
+    "id": "recczCBPZyxJQNg21",
+    "createdTime": "2022-09-17T00:41:14.000Z",
+    "fields": {
+      "Copy": "foo",
+      "Key": "bye"
+    }
+  }, {
+    "id": "recf82ak0J95BJPea",
+    "createdTime": "2022-09-17T03:32:13.000Z",
+    "fields": {
+      "Copy": "ff",
+      "Key": "as"
+    }
+  }, {
+    "id": "recucF0QK6cmzWhyZ",
+    "createdTime": "2022-09-16T11:56:23.000Z",
+    "fields": {
+      "Copy": "{greeting} You're on the VIP plan.",
+      "Key": "greetingVIP"
+    }
+  }, {
+    "id": "recz0ITxAntg8aPaI",
+    "createdTime": "2022-09-16T11:58:23.000Z",
+    "fields": {
+      "Copy": "Intro updated on {updated_at, datetime}",
+      "Key": "intro.updated_at"
+    }
+  }, {
+    "id": "reczYCG22WEA7QQwv",
+    "createdTime": "2022-09-16T11:56:23.000Z",
+    "fields": {
+      "Copy": "Hello {name}, welcome to {app}!",
+      "Key": "greeting"
+    }
+  }]
+}
