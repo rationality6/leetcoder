@@ -17,5 +17,10 @@ class Solution
 end
 
 matrix = [[1, 2, 3, 4], [5, 1, 2, 3], [9, 5, 1, 2]]
+matrix1 = [[1, 2, 3, 44], [5, 1, 2, 3], [99, 5, 1, 2]]
+matrix2 = [[1, 2, 3, 4], [5, 1, 2, 3], [9, 5, 1, 1]]
 
 p Solution.new.isToeplitzMatrix(matrix)
+p Solution.new.isToeplitzMatrix(matrix1)
+p Solution.new.isToeplitzMatrix(matrix2)
+
