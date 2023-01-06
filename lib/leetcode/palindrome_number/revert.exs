@@ -6,5 +6,5 @@ defmodule Solve do
   end
 end
 
-Solve.run(1_234_321) |> IO.inspect()
-Solve.run(1_224_321) |> IO.inspect()
+Solve.run(1234321) |> IO.inspect()
+Solve.run(1224321) |> IO.inspect()
