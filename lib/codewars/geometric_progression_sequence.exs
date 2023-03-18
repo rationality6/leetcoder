@@ -13,20 +13,23 @@ defmodule Kata do
 
     2..n
     |> Enum.to_list()
-    |> count_n(r, list_with_start_n)
+    |> iterate_acc(r, list_with_start_n)
   end
 
-  def count_n([_head | body], number_times, [acc_head | _acc_tail] = acc) do
+  def iterate_acc([_head | body], number_times, [acc_head | _acc_tail] = acc) do
     acc = [number_times * acc_head | acc]
 
-    count_n(body, number_times, acc)
+    iterate_acc(body, number_times, acc)
   end
 
-  def count_n([], _number_times, acc) do
+  def iterate_acc([], _number_times, acc) do
     Enum.reverse(acc)
     |> Enum.join(", ")
   end
 end
 
 Kata.geometric_sequence_elements(2, 3, 5)
+|> IO.inspect()
+
+Kata.geometric_sequence_elements(3, 5, 7)
 |> IO.inspect()
